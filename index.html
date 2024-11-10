@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Insights</title>
+    <link rel="stylesheet" href="main.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        
+        <div class="navBar">
+            <div class="destinationsNav">
+                <a href="#" class="navbarOpts">DESTINATIONS &nbsp; <ion-icon name="caret-down-outline"></ion-icon></a>
+                <div class="destinationsDropdown dropdown">
+                    <a href="./Agra.html">Agra</a>
+                    <a href="./amritsar.html">Amritsar</a>
+                    <a href="./mumbai.html">Mumbai</a>
+                    <a href="./jaipur.html">Jaipur</a>
+                    <a href="./Varanasi.html">Varanasi</a>
+                    <a href="./banglore.html">Bangalore</a>
+                    <a href="./delhi.html">Delhi</a>
+                </div>
+            </div>
+        </div>
+        <a href="./signin.html"><ion-icon name="person-outline" id="userId"></ion-icon></a>
+    </nav>
+    
+    <section class="DestinationsCarousel">
+        <button class="prevDestination controlDestinationBtn"><ion-icon name="chevron-back-outline"></ion-icon></button>
+        <button class="nextDestination controlDestinationBtn"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+        <div class="slide slide1">
+            <span>
+                <p class="cityTitle">Agra</p>
+                <p class="cityLine">The city of love</p>
+                <br><br><a href="./Agra.html" class="">Know More</a></span>
+        </div>
+        <div class="slide slide2">
+            <span>
+                <p class="cityTitle">AMRITSAR</p>
+                <p class="cityLine">The golden city</p>
+                <br><br><a href="./amritsar.html" class="knowMoreDestination">Know More</a></span>
+        </div>
+        <div class="slide slide3">
+            <span>
+                <p class="cityTitle">Mumbai</p>
+                <p class="cityLine">The city of dreams</p>
+                <br><br><a href="./mumbai.html" class="knowMoreDestination">Know More</a></span>
+        </div>
+        <div class="slide slide4">
+            <span>
+                <p class="cityTitle">Jaipur</p>
+                <p class="cityLine">The pink city</p>
+                <br><br><a href="./jaipur.html" class="knowMoreDestination">Know More</a></span>
+        </div>
+        <div class="slide slide5">
+            <span>
+                <p class="cityTitle">varanasi</p>
+                <p class="cityLine">The city of light</p>
+                <br><br><a href="./Varanasi.html" class="knowMoreDestination">Know More</a></span>
+        </div>
+        <div class="slide slide6">
+            <span>
+                <p class="cityTitle">Bangalore</p>
+                <p class="cityLine">Silicon Valley of India</p>
+                <br><br><a href="./banglore.html" class="knowMoreDestination">Know More</a></span>
+        </div>
+        <div class="slide slide7">
+            <span>
+                <p class="cityTitle">Delhi</p>
+                <p class="cityLine">City of monuments</p>
+                <br><br><a href="./delhi.html" class="knowMoreDestination">Know More</a></span>
+        </div>
+       
+    </section>
+    <section class="attractionsSec">
+        <h3>Attractions</h3>
+        <h4>Hidden Treasures</h4>
+    </section>
+    <section class="attractionsCarousel">
+        <button class="prevAttraction controlAttractionBtn"><ion-icon name="chevron-back-outline"></ion-icon></button>
+        <button class="nextAttraction controlAttractionBtn"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+        <div class="attractionsCard attractionsCard1">
+            <a href="https://en.wikipedia.org/wiki/Red_Fort" class="attractionsLink">
+                <img src="./delhi/Red fort.jpg" alt="" class="placeImg">
+                <p class="attractionsName">Red fort</p>
+                <p class="attractionsCity">Delhi</p>
+            </a>
+        </div>
+        <div class="attractionsCard attractionsCard2">
+            <a href="https://en.wikipedia.org/wiki/Taj_Mahal" class="attractionsLink">
+                <img src="./agra/AGRA......jpg" alt="" class="placeImg">
+                <p class="attractionsName">Taj Mahal</p>
+                <p class="attractionsCity">Agra</p>
+            </a>
+        </div>
+        <div class="attractionsCard attractionsCard3">
+            <a href="https://en.wikipedia.org/wiki/Golden_Temple" class="attractionsLink">
+                <img src="./amritsar/golden temple.jpg" alt="" class="placeImg">
+                <p class="attractionsName">Golden temple</p>
+                <p class="attractionsCity">Amritsar</p>
+            </a>
+        </div>
+        <div class="attractionsCard attractionsCard4">
+            <a href="https://en.wikipedia.org/wiki/Hawa_Mahal" class="attractionsLink">
+                <img src="./jaipur/hawa mahal.jpg" alt="" class="placeImg">
+                <p class="attractionsName">Hawa mahal</p>
+                <p class="attractionsCity">Jaipur</p>
+            </a>
+        </div>
+        <div class="attractionsCard attractionsCard5">
+            <a href="https://en.wikipedia.org/wiki/Bangalore_Palace" class="attractionsLink">
+                <img src="./banglore/Banglore palace.jpg" alt="" class="placeImg">
+                <p class="attractionsName">Bangalore palace</p>
+                <p class="attractionsCity">Bangalore</p>
+            </a>
+        </div>
+        <div class="attractionsCard attractionsCard6">
+            <a href="https://en.wikipedia.org/wiki/Ganges" class="attractionsLink">
+                <img src="./varanasi/Ganges river.jpg" alt="" class="placeImg">
+                <p class="attractionsName">Ganges river</p>
+                <p class="attractionsCity">Varanasi</p>
+            </a>
+        </div>
+        <div class="attractionsCard attractionsCard7">
+            <a href="https://en.wikipedia.org/wiki/India_Gate" class="attractionsLink">
+                <img src="./amritsar/Attraction 1.jpg" alt="" class="placeImg">
+                <p class="attractionsName">India gate</p>
+                <p class="attractionsCity">Mumbai</p>
+            </a>
+        </div>
+        <div class="attractionsCard attractionsCard8">
+            <a href="https://en.wikipedia.org/wiki/Jantar_Mantar,_Jaipur" class="attractionsLink">
+                <img src="./jaipur/Jantar Mantar.jpg" alt="" class="placeImg">
+                <p class="attractionsName">Jantar Mantar</p>
+                <p class="attractionsCity">Jaipur</p>
+            </a>
+        </div>
+        <div class="attractionsCard attractionsCard9">
+            <a href="https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple" class="attractionsLink">
+                <img src="./varanasi/Kaashi vishwanath temple.jpg" alt="" class="placeImg">
+                <p class="attractionsName">Kashi Vishwanath</p>
+                <p class="attractionsCity">Varanasi</p>
+            </a>
+        </div>
+        <div class="attractionsCard attractionsCard10">
+            <a href="https://en.wikipedia.org/wiki/Wagah#Border_crossing" class="attractionsLink">
+                <img src="./amritsar/wagha border.jpg" alt="" class="placeImg">
+                <p class="attractionsName">Wagha border</p>
+                <p class="attractionsCity">Amritsar</p>
+            </a>
+        </div>
+        
+               
+       
+    </section>
+    <section class="experiencesSec">
+        <h3>Experiences</h3>
+        <h4>Dive into local diaries</h4>
+    </section>
+    <section class="experiencesCarousel">
+        <button class="prevExperience controlExpBtn"><ion-icon name="chevron-back-outline"></ion-icon></button>
+        <button class="nextExperience controlExpBtn"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+        <div class="experiencesCard experiencesCard1">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/Vu1gpNhbpUk" title="Top 15 places to visit in Agra | Tickets, Timings and all Tourist Places of Agra, India" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>AGRA</p>
+        </div>
+        <div class="experiencesCard experiencesCard2">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/gMjUurYj2oA" title="Amritsar Tourist Places | Amritsar Tour Plan 2023 | Amritsar City Tour | Golden Temple #amritsar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   <p>AMRITSAR</p>
+        </div>
+        <div class="experiencesCard experiencesCard3">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/7cPLbiblb84" title="Jaipur | Jaipur Tourist Places | Jaipur Travel Guide &amp; Jaipur Tour Budget | Jaipur Vlog | Rajasthan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <p>JAIPUR</p>
+        </div>
+        <div class="experiencesCard experiencesCard4">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/2lUkBy4UgLQ" title="Varanasi | Varanasi Tourist Places| Varanasi Travel Guide | Varanasi Tour | Varanasi, Kashi, Banaras" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <p>VARANASI</p>
+        </div>
+        <div class="experiencesCard experiencesCard5">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/aw8bVyONgxA" title="DELHI TOURIST PLACES 2023 | DELHI TRAVEL PLACES | DELHI TRAVEL GUIDE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <p>DELHi</p>
+        </div>
+        <div class="experiencesCard experiencesCard6">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/raMvBggEW4o" title="Places To Visit In Mumbai | Mumbai Darshan | Mumbai Tourist Places | Mumbai Trip #mumbai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <p>MUMBAI</p>
+        </div>
+        <div class="experiencesCard experiencesCard7">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/w27ekGRdvuk" title="Bangalore Tourist Places | Bangalore Tour Plan | Places To Visit In Bangalore #banglore" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <p>BANGALORE</p>
+        </div>
+     
+        
+        
+    </section>
+    <footer>
+        <div>
+            <span class="followUs">Follow Us On</span>
+            <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+        <!-- <div class="feedbackForm">
+            <span class="feedback">Feedback</span>
+            <ul class="rating">
+                <li><ion-icon name="star-outline" id="1"></ion-icon></li>
+                <li><ion-icon name="star-outline" id="2"></ion-icon></li>
+                <li><ion-icon name="star-outline" id="3"></ion-icon></li>
+                <li><ion-icon name="star-outline" id="4"></ion-icon></li>
+                <li><ion-icon name="star-outline" id="5"></ion-icon></li>
+            </ul>
+            <ion-icon name="send-outline" class="sendIcon"></ion-icon>
+        </div> -->
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>

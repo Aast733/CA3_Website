@@ -1,0 +1,281 @@
+*{
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
+
+.cityIntro{
+    background-image: url("./amritsar/AMRITSAR.GOLDEN.jpg");
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 650px;
+}
+
+.cityName{
+    font-size: 12em;
+    color: white;
+    margin: 0;
+    padding-top: 30vh;
+}
+
+.cityDescSec{
+    position:absolute;
+    top: 550px;
+    display:flex;
+}
+
+.cityQuote{
+    text-align: start;
+    font-size: 2.5em;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.cityDesc{
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align:justify;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.25;
+}
+
+.cityHeadSec{
+    padding: 15px 0px;
+    background-color: rgb(230, 202, 207);
+}
+
+.cityHeading{
+    font-size: 7em;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.citySubHeading{
+    font-size: 2em;
+    font-weight: 300;
+    margin-top:0;
+    margin-bottom: 30px;
+}
+
+.attractionsCarousel,.hotelCarousel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom:25px;
+}
+
+.attractionsBox,.hotelBox{
+    padding:5px;
+    border:2px solid black;
+}
+
+.attractionsBox:hover{
+    scale:1.1;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.attractionsOpts{
+    width: 20vw;
+    height: 25vh;
+    border: 2px solid black;
+    margin-bottom: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.attractionsName,.hotelName{
+    color: black;
+    font-size: large;
+}
+
+.attractionsOpts1{
+    background-image: url("./amritsar/jallianwala\ bagh.jpg");
+}
+
+.attractionsOpts2{
+    background-image: url('./amritsar/golden\ temple.jpg');
+}
+
+.attractionsOpts3{
+    background-image: url('./amritsar/wagha\ border.jpg');
+}
+
+.attractionsOpts4{
+    background-image: url("./amritsar/Ram\ tirath\ temple.jpg");
+}
+
+
+
+.restaurantsCarousel{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 76vw;
+    margin-left: 12vw;
+}
+
+.restaurantsBox{
+    margin-bottom: 20px;
+    margin-left: 40px;
+    height: 70vh;
+    min-width: 1325px;
+    width: 100%;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.restaurantsImg{
+    width: 50%;
+}
+
+.restaurantsInfo{
+    background-image: url("./assets/RestaurantCommentBoxFinal.jpg");
+    background-size:contain;
+    width: 70%;
+    margin-left: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.restaurantsName{
+    padding-top: 100px;
+    padding-left: 85px;
+    width: 70%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.restaurantsDesc{
+    text-align:start;
+    font-size: large;
+    width: 70%;
+    margin-left: 110px;
+}
+
+
+.CuisinesCarousel{
+    background-image: url("");
+    height: 50vh;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 25vh 0 25vh 0;
+}
+
+.cuisineName{
+    display: none;
+    font-size: 2em;
+    font-weight: 500;
+    background-color: white;
+}
+
+.cuisinesImg{
+    border-radius: 50%;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuisinesImg:hover{
+    .cuisineName{
+        display:block;
+    }
+}
+
+.cuisinesImg1{
+    background-image: url("./amritsar/cholae\ bhaturae.jpg");
+    background-size: cover;
+}
+.cuisinesImg2{
+    background-image: url("./amritsar/dal\ makhani.jpg");
+    background-size: cover;
+}
+.cuisinesImg3{
+    background-image: url("./amritsar/kulcha.jpg");
+    background-size: cover;
+}
+.cuisinesImg4{
+    background-image: url("./amritsar/Keema\ naan.jpg");
+    background-size: cover;
+}
+.cuisinesImg5{
+    background-image: url("./amritsar/pinni.jpg");
+    background-size: cover;
+}
+.cuisinesImg6{
+    background-image: url("./amritsar/prasad.jpg");
+    background-size: cover;
+}
+
+
+.festivalsCarousel{
+    background-image: url("");
+    height: 50vh;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 25vh 0 25vh 0;
+}
+
+.festivalsName{
+    display: none;
+    font-size: 2em;
+    font-weight: 500;
+    background-color: white;
+}
+
+.festivalsImg{
+    margin: 20px;
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.festivalsImg:hover{
+    .festivalsName{
+        display:block;
+    }
+}
+
+.festivalsImg1{
+    background-image: url("./amritsar/baisakhi.jpg");
+}
+.festivalsImg2{
+    background-image: url("./amritsar/lohri.jpg");
+}
+
+.festivalsImg3{
+    background-image: url("./amritsar/gurupyrab.jpg");
+}
+
+.festivalsImg4{
+    background-image: url("./amritsar/ram\ navmi.jpg");
+}
+.festivalsImg5{
+    background-image: url("./amritsar/Shivratri.jpg");
+}
+.festivalsImg6{
+    background-image: url("./amritsar/holiii.jpg");
+}
